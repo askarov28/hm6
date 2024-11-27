@@ -83,4 +83,3 @@ name=[FullTimeEmployee(),PartTimeEmployee()]
 for namer in name:
     print(namer.colculate_salary("Ulugbek","Askarov",2006,20000))
     
-    
