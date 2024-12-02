@@ -18,10 +18,10 @@ def register():
 me.commit()    
 register()
 
-def delete_geek_by_id(geek_id):
+def delete_geek_by_id(geks_id):
     """Функция для удаления записи по id"""
     cursor.execute('''
     DELETE FROM geeks WHERE id = ?
-    ''', (geek_id,))
+    ''', (geks_id,))
     me.commit()
-    print(f"Запись с id {geek_id} успешно удалена!")
+    print(f"Запись с id {geks_id} успешно удалена!")
